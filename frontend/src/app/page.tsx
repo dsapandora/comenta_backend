@@ -1,7 +1,7 @@
 import Order from '../components/Order';
 import Stock from '../components/Stock';
 import { Container, Typography } from '@mui/material'
-import { fetchOrder, fetchStock } from './utils/api';
+import { fetchOrder, fetchStock } from '../utils/api';
 
 const Home = async () => {
   const order = await fetchOrder();
