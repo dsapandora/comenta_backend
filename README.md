@@ -9,8 +9,9 @@ This project consists of a backend and a frontend. The backend is built with Fas
 Three friends enter a bar that only sells beer. The place offers occasional promotions.
 Implement an endpoint in Python to get the status of the order.
 
-FRONTEND: https://comenta-exam.vercel.app/
-BACKEND: https://dry-citadel-13934-076124cec1e2.herokuapp.com/
+* FRONTEND: https://comenta-exam.vercel.app/
+
+* BACKEND: https://dry-citadel-13934-076124cec1e2.herokuapp.com/
 
 
 ## Project Structure
