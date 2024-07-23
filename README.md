@@ -33,7 +33,6 @@ exam-project/
 │   │   ├── test_order.py
 │   ├── requirements.txt
 │   ├── Procfile
-│   └── README.md
 ├── frontend/
 │   ├── src/
 │   │   ├── app/
