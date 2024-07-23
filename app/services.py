@@ -1,6 +1,7 @@
 from datetime import datetime
-from .models import Stock, Order, Beer, OrderItem, Round
+from app.models import Stock, Order, Beer, OrderItem, Round
 
+# Dummy data for stock
 stock = Stock(
     last_updated=datetime(2024, 9, 10, 12, 0, 0),
     beers=[
@@ -10,6 +11,7 @@ stock = Stock(
     ]
 )
 
+# Dummy data for order
 order = Order(
     created=datetime(2024, 9, 10, 12, 0, 0),
     paid=False,
@@ -40,3 +42,9 @@ order = Order(
         )
     ]
 )
+
+def get_stock() -> Stock:
+    return stock
+
+def get_order() -> Order:
+    return order
