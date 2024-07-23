@@ -31,8 +31,6 @@ exam-project/
 │   ├── tests/
 │   │   ├── __init__.py
 │   │   ├── test_order.py
-│   ├── requirements.txt
-│   ├── Procfile
 ├── frontend/
 │   ├── src/
 │   │   ├── app/
@@ -54,6 +52,8 @@ exam-project/
 │   ├── .env.local
 │   ├── README.md
 └── README.md
+│── requirements.txt
+└── Procfile
 ```
 
 ## Backend Setup
